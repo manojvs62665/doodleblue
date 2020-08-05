@@ -1,0 +1,92 @@
+@import "../../../assets/fonts.scss";
+
+.add_search {
+  margin: 0 0 15px 0;
+}
+
+.ui.fixed.table {
+  border: none;
+  th {
+    border: none !important;
+    background-color: #f1f1f1 !important;
+    text-align: center;
+  }
+  thead {
+    background-color: #f1f1f1 !important;
+  }
+  .basic_info,
+  .company {
+    text-align: left;
+  }
+  .company_name {
+    font-size: 15px;
+  }
+  .name_cell {
+    i {
+      font-size: 40px;
+      padding: 0 10px 0 5px;
+      background: -webkit-linear-gradient(
+        $gradieant_color_1,
+        $gradieant_color_2
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  td {
+    border: none !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+    p {
+      font-size: 12px;
+      color: $contact_sub;
+      text-transform: lowercase !important;
+      padding: 5px 0 0 0;
+    }
+    .ui.checkbox {
+      padding: 15px 0;
+    }
+  }
+  tr:hover {
+    background-color: #e8ecef;
+  }
+}
+
+.ui.basic.modal {
+  background-color: #ffffff !important;
+  left: 25%;
+  top: 25%;
+}
+.ui.modal > .close {
+  color: #bbb8b8 !important;
+}
+.modal {
+  height: auto !important;
+  h2 {
+    color: #000000;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+}
+.ui.input > input {
+  border-radius: 50px !important;
+  padding: 10px 20px !important;
+  background-color: #f1f1f1 !important;
+}
+
+.ui.fixed.table {
+  table-layout: auto !important;
+}
+.add_btn,
+.submit_btn {
+  border-radius: 5px !important;
+  margin: 0 0 0 25px !important;
+  background: linear-gradient(45deg, #ed8468, #e762a2) !important;
+  color: #ffffff !important;
+}
+.ui.button:disabled {
+  background-color: #ed8468 !important;
+}

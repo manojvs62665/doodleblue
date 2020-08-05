@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "members": [
+    {
+      "id": "0",
+      "name": "mike huston",
+      "address": "America/Los_Angeles",
+      "company": "Estra boutique ltd",
+      "phone": "12345678",
+      "email": "mike@hotmail.com"
+    },
+    {
+      "id": "1",
+      "name": "amazonia",
+      "address": "Asia/Kolkata",
+      "company": "amazonia online",
+      "phone": "987654321",
+      "email": "amazonia@hotmail.com"
+    },
+    {
+      "id": "2",
+      "name": "ronnie",
+      "address": "Asia/Kolkata",
+      "company": "ronnie online",
+      "phone": "987654321",
+      "email": "ronnie@hotmail.com"
+    }
+  ]
+}
